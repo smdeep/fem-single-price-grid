@@ -11,6 +11,8 @@
 }
 
 html {
+    margin: 0;
+    padding:0;
     font-size: 100%;
 }
 
@@ -24,13 +26,13 @@ body {
     background-color: var(--clr-light-gray);
     font-family: "Karla", sans-serif;
     font-size: 1rem;
-    padding:1.5rem;
+    /* padding:1.5rem; */
 }
 
 .container {
-    
+    /* border: 1px solid red; */
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;

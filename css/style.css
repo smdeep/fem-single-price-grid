@@ -1,0 +1,138 @@
+:root {
+    
+
+    --clr-primary-cyan: hsl(179, 62%, 43%);
+    --clr-primary-cyan-dark: hsl(179, 64%, 37%);
+    --clr-primary-yellow:hsl(71, 73%, 54%);
+
+    --clr-light-gray: hsl(204, 43%, 93%);
+    --clr-grayish-blue:hsl(218, 22%, 67%);
+ 
+}
+
+html {
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: var(--clr-light-gray);
+    font-family: "Karla", sans-serif;
+    padding:1.5rem;
+}
+
+.container {
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    /* padding: 1.5rem; */
+}
+
+.card {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    overflow:hidden;
+}
+.community {
+    background-color: white;
+    padding: 1.2rem;
+    
+}
+
+.community__header {
+    font-size: 1.4rem;
+    color: var(--clr-primary-cyan);
+    padding-bottom: 1rem;
+    
+}
+
+.community__header--green {
+    font-size: 1.1rem;
+    color: var(--clr-primary-yellow);
+    padding-bottom: 1rem;
+}
+
+.community__header--ltgray {
+    line-height: 1.5rem;
+    color: #b1b1b1;
+}
+
+
+
+    @media screen and (min-width: 700px) {
+        
+        .row {
+            display:flex;
+            justify-content: space-evenly;
+        }
+
+        .subscription, .why-us {
+            flex:1;
+        }
+    }
+    
+
+.subscription {
+    /* border: 1px solid red; */
+
+    background-color: var(--clr-primary-cyan-dark);
+    padding: 1.2rem;
+}
+
+.subscription__header {
+    font-size: 1.2rem;
+    color: var(--clr-light-gray);
+    padding-bottom: 1rem;
+}
+
+.subscription__drop-cap {
+    font-size: 2rem;
+    color: var(--clr-light-gray);
+}
+
+.subscription p {
+    color:white;
+}
+
+.subscription-btn {
+    text-align: center;
+}
+
+.subscription__button {
+    /* border: 1px solid black; */
+    /* margin: 0 auto; */
+    padding: 1em 7em;
+    background-color: var(--clr-primary-yellow);
+    border-radius: 5px;
+    margin: 1em;
+}
+
+.why-us {
+    background-color: var(--clr-primary-cyan);
+    padding: 1.2rem;
+}
+
+.why-us__header {
+    font-size: 1.2rem;
+    color: var(--clr-light-gray);
+    padding-bottom: 1rem;
+}
+
+.why-us__list {
+
+    list-style: none;
+    font-size: .9rem;
+    color: var(--clr-light-gray);
+}
+
+.why-us__list li {
+    margin-bottom: .4em;
+}

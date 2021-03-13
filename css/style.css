@@ -29,6 +29,7 @@ body {
     background-color: var(--clr-light-gray);
     font-family: "Karla", sans-serif;
     font-size: 1rem;
+    line-height: 1.5;
     /* padding:1.5rem; */
 }
 
@@ -67,9 +68,11 @@ body {
 }
 
 .community__header {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     color: var(--clr-primary-cyan);
-    padding: .8rem 0 .5rem 0;
+    /* padding: .5rem 0 .5rem 0; */
+    margin-bottom: 1.25rem;
+    line-height: 1.15;
 
 }
 
@@ -87,7 +90,6 @@ body {
 
 .subscription {
 
-
     background-color: var(--clr-primary-cyan-dark);
     padding: 1.1rem;
 }
@@ -100,12 +102,14 @@ body {
     }
 
     .community {
-        padding: 3em;
+        /* border: 1px solid red; */
+        /* padding: 2em 1em; */
     }
 
     .subscription {
+        /* border: 5px solid green; */
         flex: 1;
-        padding: 2em;
+        /* padding: 2em; */
     }
 }
 
@@ -113,9 +117,9 @@ body {
 
 
 .subscription__header {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--clr-light-gray);
-    padding: .8rem 0 .5rem 0;
+    padding: .5rem 0 .7rem 0;
 }
 
 .subscription__price {
@@ -162,19 +166,19 @@ body {
 
 .why-us {
     background-color: var(--clr-primary-cyan);
-    padding: 1.2rem;
+    padding: 1.1rem;
 }
 
 @media screen and (min-width: 700px) {
 
     .why-us {
         flex: 1;
-        padding: 2em;
+        /* padding: 2em; */
     }
 }
 
 .why-us__header {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--clr-light-gray);
     padding: .5rem 0 .7rem 0;
 }
@@ -182,10 +186,10 @@ body {
 .why-us__list {
 
     list-style: none;
-    font-size: .8rem;
+    font-size: .85rem;
     color: var(--clr-light-gray);
 }
 
 .why-us__list li {
-    margin-bottom: .4em;
+    margin-bottom: .2em;
 }
